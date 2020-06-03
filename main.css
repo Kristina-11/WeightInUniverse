@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right,rgba(0, 0, 153, 0.7), rgba(153, 0, 153, 0.7), pink);
+}
+h1 {
+    font-size: 7vw;
+    margin: 0 auto;
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+    color:#640c6c;
+    text-shadow:2px 2px 6px rgb(236, 187, 230);
+    transform: rotate(5deg);
+}
+h3 {
+    font-size: 2vw;
+    text-align: center;
+    color: #640c6c;
+    font-family: cursive;
+}
+
+.info {
+    text-align: center;
+    color: #59105f;
+    font-family: sans-serif;
+}
+
+.form {
+    border: 2px solid purple;
+    border-radius: 2em;
+    box-shadow:5px 5px rgb(114, 42, 114);
+    padding: 2em;
+    margin: 1em auto;
+    width: 70%;
+}
+
+#weight {
+    width: 100%;
+    border: none;
+    border-radius: 2em;
+    padding: 6px;
+    background-color: rgb(250, 230, 233);
+}
+
+.planets {
+    width: 100%;
+    border-radius: 2em;
+    padding: 4px;
+    margin-top: 2px;
+    background-color: rgb(250, 230, 233);
+    border: none;
+    font-family: cursive;
+    font-weight: bold;
+    color: purple;
+    font-size: 14px;
+}
+
+#results {
+    width: 100%;
+    border: none;
+    border-radius: 2em;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(233, 190, 196);
+    font-family: cursive;
+    font-weight: bold;
+    color: purple;
+}
+
+.result {
+    width: 100%;
+    height: auto;
+}
+
+#demoPlanet {
+    border: 2px solid black;
+    max-width: 60%;
+    width: 60%;
+}
+
+footer {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;    
+    text-align: center;
+    height: 8em;
+}
+
+footer h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1em;
+    color: rgba(231, 209, 222, 0.733);
+    transform: rotate(-5deg);
+}
+
+footer p {
+    color: rgb(194, 164, 191);
+}
+
+footer a {
+    color: purple;
+}
+
+footer a:hover {
+    color: rgba(231, 209, 222, 0.733);
+}

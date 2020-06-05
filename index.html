@@ -7,16 +7,15 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
 </head>
 <body>
     <header>
-        <h1>WELCOME</h1>
-        <h3>Ever wonder how objects weight on different planets?</h3>
+        <h1 id="title">How heavy am I</h1>
+        <h3>Find out your weight on different planets in our solar system</h3>
     </header>
     <main>
         <div class="info">
-            Let's find out by inputing weight in box below.
+            Let's find out by inputing weight on Earth in box below.
         </div>
 
         <div class="form">
@@ -31,7 +30,6 @@
                 <option value="6">Saturn</option>
                 <option value="7">Uranus</option>
                 <option value="8">Neptune</option>
-                <option value="9">Pluto</option>
             </select>
             <button id="results">FIND OUT</button>
         </div>

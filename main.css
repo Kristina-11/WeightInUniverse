@@ -4,17 +4,15 @@
 body {
     background-image: linear-gradient(to right,rgba(0, 0, 153, 0.7), rgba(153, 0, 153, 0.7), pink);
 }
-h1 {
-    font-size: 7vw;
+h1#title {
     margin: 0 auto;
     text-align: center; 
     font-family: 'Courier New', Courier, monospace;
     color:#640c6c;
     text-shadow:2px 2px 6px rgb(236, 187, 230);
-    transform: rotate(5deg);
+    transform: rotate(3deg);
 }
 h3 {
-    font-size: 2vw;
     text-align: center;
     color: #640c6c;
     font-family: cursive;
@@ -73,11 +71,50 @@ h3 {
     height: auto;
 }
 
-#demoPlanet {
-    border: 2px solid black;
-    max-width: 60%;
-    width: 60%;
+.planetTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(114, 42, 114);
 }
+
+.weightResultInfo {
+    text-align: center;
+    text-decoration: underline rgb(92, 6, 92);
+    color: rgb(92, 6, 92);
+    
+}
+
+.finalResult {
+    text-align: center;
+    font-size: 3em;
+    color: rgb(233, 190, 196);
+}
+
+.planetInfo {
+    text-align: center;
+    color: rgb(73, 16, 73);
+    border: 2px solid rgb(73, 16, 73);
+    border-radius: 2em;
+    padding: 2em;
+    margin: 2em;
+}
+
+#demoPlanet {
+    /* border: 2px solid black; */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Planets - work in progress */
+/* .merc {
+    -webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	margin: auto;
+	background-color: #e5a4cb;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+} */
 
 footer {
     max-width: 100%;
